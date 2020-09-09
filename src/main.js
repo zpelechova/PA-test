@@ -132,7 +132,7 @@ Apify.main(async () => {
             await delay(1000);
 
             if (request.userData.label === 'list') {
-                const itemLinks = $('.recipe-card > .recipe-card__detailsContainer > a');
+                const itemLinks = $('div.recipeCard__detailsContainer > a');
                 if (itemLinks.length === 0) {
                     return;
                 }
