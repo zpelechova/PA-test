@@ -15,7 +15,7 @@
             "editor": "requestListSources",
             "description": "List of URLs that will be scraped or crawled.",
             "prefill": [
-                { "url": "https://www.imdb.com/search/title/" }
+                { "url": "https://www.allrecipes.com/recipes/276/desserts/cakes/" }
             ]
         },
         "maxItems": {
