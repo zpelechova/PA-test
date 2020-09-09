@@ -72,7 +72,7 @@ Apify.main(async () => {
 
     const startUrls = [];
 
-    if (input.searchText && input.searchText.trim() !== '') {
+    if (input.searchText && input.searchText.trim() !== '' && input.searchUrls.length === 0) {
         const searchUrl = `https://www.allrecipes.com/search/results/?wt=${querystring.escape(input.searchText)}`;
         startUrls.push(searchUrl);
     }
